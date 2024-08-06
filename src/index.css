@@ -1,4 +1,21 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variable Fonts */
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: "BDO Grotesk";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: local("BDO Grotesk"),
+      url("./assets/fonts/BDOGrotesk-VF-BF648a657078401.ttf");
+    font-named-instance: "Regular";
+  }
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +82,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

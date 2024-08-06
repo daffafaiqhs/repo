@@ -1,0 +1,21 @@
+.navbar__items,
+.hamburger__items {
+  color: #404040;
+}
+
+.navbar__items--active,
+.hamburger__items--active {
+  color: #000000;
+  font-weight: bold;
+}
+
+.hamburger-list {
+  transition: opacity 400ms ease, visibility 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hamburger-list--show {
+  opacity: 1;
+  visibility: visible;
+}
