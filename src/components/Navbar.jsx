@@ -12,13 +12,13 @@ function Navbar() {
     const [isVisible, setVisible] = useState(false);
 
     return (
-        <>
+        <div>
             <div className='relative mx-7 xl:mx-12 z-10'>
                 <header className='py-1 grid grid-cols-2 grid-rows-1 md:grid-cols-3 items-center'>
-                    <a href="#">
+                    <a href="#" className='w-fit'>
                         <img src={myLogo} alt="Daffa Faiq logo" />
                     </a>
-                    <ul className='navbar justify-self-center hidden md:flex md:flex-row md:gap-6'>
+                    <ul className='navbar justify-self-center hidden md:flex md:flex-row md:gap-3 lg:gap-6'>
                         <li className='navbar__items navbar__items--active'>
                             <a href="#">Home</a>
                         </li>
@@ -45,10 +45,10 @@ function Navbar() {
                         <img src={moonIcon} alt="Mode Switcher" className='p-2 hidden md:block' />
                     </div>
                 </header>
-                
             </div>
+
             <HamburgerList isVisible={isVisible} />
-        </>
+        </div>
     )
 
 }

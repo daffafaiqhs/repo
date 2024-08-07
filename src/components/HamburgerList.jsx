@@ -1,7 +1,7 @@
 function HamburgerList({ isVisible }) {
 
     return (
-        <div className='absolute w-full z-0'>
+        <div className='absolute w-full z-0 top-0'>
             <div className={`hamburger-list ${isVisible ? 'hamburger-list--show' : ''} md:hidden`}>
                 <div className="bg-white pt-14 pb-4 shadow-lg">
                     <ul className='text-center md:hidden'>

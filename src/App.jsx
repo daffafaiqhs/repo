@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='h-screen flex flex-col md:block'>
+      <div className='min-h-screen flex flex-col'>
         <Navbar/>
         <HeroSection />
       </div>
