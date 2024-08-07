@@ -25,7 +25,6 @@ export default {
       },
       padding: {
         'width-responsive': 'clamp(.2rem, 6vw, 10rem)',
-        'height-responsive': 'clamp(.75rem, 6vh, 10rem)',
       },
     },
   },

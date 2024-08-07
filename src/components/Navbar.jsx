@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <div>
-            <div className='relative mx-7 xl:mx-12 z-10'>
+            <div className='relative mx-7 z-10'>
                 <header className='py-1 grid grid-cols-2 grid-rows-1 md:grid-cols-3 items-center'>
                     <a href="#" className='w-fit'>
                         <img src={myLogo} alt="Daffa Faiq logo" />

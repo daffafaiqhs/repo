@@ -26,7 +26,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className='flex justify-center pt-5 md:absolute md:bottom-0 md:right-0'>
-                <img src={rocketIllustration} alt="Rocket Illustration" className='md:w-img-md'/>
+                <img src={rocketIllustration} alt="Rocket Illustration" className='md:w-img-md lg:max-w-[620px] rocket'/>
             </div>
         </div>
     )
