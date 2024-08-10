@@ -3,8 +3,9 @@ body {
   font-family: "BDO Grotesk";
 }
 
-@media (max-height: 903px) {
+@media (max-height: 650px) {
   .rocket {
-    width: calc(40vh + 10vw) !important;
+    width: calc(40vh + 20vw) !important;
+    max-width: 80vh;
   }
 }

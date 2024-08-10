@@ -13,18 +13,24 @@ export default {
       },
       fontSize: {
         'title-sm': 'clamp(0.8rem, 13vw, 4rem)',
-        'subtitle-sm': 'clamp(0.5rem, 2vw, .6rem)',
-        'title-md': 'clamp(4rem, calc(8vw + 2vh), 7.2rem)',
+        'subtitle-sm': 'clamp(.5rem, 2vw, .6rem)',
+        'title-md': 'clamp(4rem, calc(8vw + 2vh), 8rem)',
+        'subtitle-md': 'clamp(.6rem, 2vw, 1rem)',
+        'title-2xl': 'clamp(8rem, calc(8vw + 2vh), 10rem)',
       },
       width: {
         'title-sm': 'clamp(1rem, 6vw, 1.9rem)',
-        'img-md': 'calc(30vw + 25vh)',
+        'title-md': 'clamp(1.5rem, 5vw, 4.5rem)',
+        'img-responsive': 'calc(30vw + 30vh)',
       },
       aspectRatio: {
         '6/9': '6 / 9',
       },
       padding: {
-        'width-responsive': 'clamp(.2rem, 6vw, 10rem)',
+        'width-responsive': 'clamp(.2rem, 3vw, 2rem)',
+      },
+      screens: {
+        '3xl': '2000px',
       },
     },
   },

@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-      <div className='min-h-screen flex flex-col'>
-        <Navbar/>
-        <HeroSection />
+      <div className='flex flex-col 3xl:items-center'>
+        <div className='min-h-screen flex flex-col'>
+          <Navbar/>
+          <HeroSection />
+        </div>
       </div>
     </>
   )
